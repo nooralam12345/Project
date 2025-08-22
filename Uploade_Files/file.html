@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DocSense Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    <div class="logo">📊 DocSense</div>
+    <ul class="menu">
+      <li>Profile</li>
+      <li>Dashboard</li>
+      <li>Documents</li>
+      <li>Locations</li>
+      <li>Users</li>
+      <li>Settings</li>
+      <li class="logout">Log Out</li>
+    </ul>
+  </aside>
+
+  <!-- Main Layout -->
+  <div class="main-content">
+    <!-- Header -->
+    <header class="header">
+      <input type="text" placeholder="Search for anything..." class="search">
+      <div class="profile">
+        <img src="https://via.placeholder.com/40" alt="User">
+        <div>
+          <h4>Md Azad</h4>
+          <p>mdazad@marc2web.com</p>
+        </div>
+      </div>
+    </header>
+
+    <!-- Page Content -->
+    <section class="page">
+      <h2>Upload Files</h2>
+      <p class="breadcrumb">Dashboard / Upload Files</p>
+
+      <div class="cards">
+        <!-- User Card -->
+        <div class="card">
+          <div class="icon">📁</div>
+          <h3>User</h3>
+          <button>All Users</button>
+        </div>
+
+        <!-- Upload Card -->
+        <div class="card dashed">
+          <div class="icon">☁️</div>
+          <h3>Upload Your Invoice</h3>
+          <button>Choose File</button>
+        </div>
+
+        <!-- Location Card -->
+        <div class="card">
+          <div class="icon">📂</div>
+          <h3>Location</h3>
+          <button>Total Location</button>
+        </div>
+      </div>
+    </section>
+  </div>
+</body>
+</html>
